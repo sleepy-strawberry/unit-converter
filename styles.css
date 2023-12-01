@@ -72,3 +72,14 @@ p {
   margin-top: 20px;
   color: #100e0e;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+    margin: 0.6em;
+  }
+  #input {
+    width: 50%;
+    margin-bottom: 0.3em;
+  }
+}
